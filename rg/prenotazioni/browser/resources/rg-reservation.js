@@ -3,17 +3,17 @@
 /*
  * This is the javascript that looks for overlays
  */
-(function (jQuery) {
-    /*
-    * Apply an overlay to all the links with class infoIco like
-    */
-    function prepOverlay() {
-        return jQuery('a.prenotazioni-popup').prepOverlay({
-            subtype: 'ajax'
-        });
-    }
-    jQuery(document).ready(prepOverlay);
-}(jQuery));
+// (function (jQuery) {
+//     /*
+//     * Apply an overlay to all the links with class infoIco like
+//     */
+//     function prepOverlay() {
+//         return jQuery('a.prenotazioni-popup').prepOverlay({
+//             subtype: 'ajax'
+//         });
+//     }
+//     jQuery(document).ready(prepOverlay);
+// }(jQuery));
 
 (function (jQuery) {
     /*

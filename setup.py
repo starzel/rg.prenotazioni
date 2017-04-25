@@ -46,6 +46,8 @@ setup(
         'plone.api>=1.1.0',
         'pyinter',
         'quintagroup.formlib.captcha',
+        'five.formlib',
+        'plone.app.form',
     ],
     tests_require=tests_require,
     extras_require=dict(tests=tests_require),
